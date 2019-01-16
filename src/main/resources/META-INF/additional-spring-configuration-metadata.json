@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "desafiocielo-service.display-name",
+    "type": "java.lang.String",
+    "description": "A description for 'desafiocielo-service.display-name'"
+  },
+  {
+    "name": "info.name",
+    "type": "java.lang.String",
+    "description": "A description for 'info.name'"
+  },
+  {
+    "name": "info.version",
+    "type": "java.lang.String",
+    "description": "A description for 'info.version'"
+  }
+]}
