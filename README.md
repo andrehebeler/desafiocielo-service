@@ -5,6 +5,19 @@ Acessado pelo artefato de front, devolve informação de extaraida de sistema le
 Executar este artefato antes de acessar o front pelo browser.
 Este artefato utiliza a porta 8001
 
+________________________________________________________________
+
+* No intuito de desacoplamento para fins de reuso da API por sistemas diversos
+foi desenvolvido dois artefatos (WEB e SERVICE).
+Para o correto funcionamento do sistema, os dois artefatos devem estar no ar 
+antes da chamada via Browser.
+* O sistema WEB contém a parte do front acessada pelo cliente via Browser, este artefato WEB
+ consome via REST a aplicação SERVICE que é responsável pela transformação da informação 
+ do sistema legado.
+
+________________________________________________________________
+
+
 Documentação swagger no endereço localhost:8001/swagger-ui.html
 
 
